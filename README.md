@@ -8,7 +8,7 @@ The timestamp microservice takes a GET request with a natural language date or u
 * **Params:** either a natural language date, or a unix timestamp  
 
 ### Usage
-**GET request:** `https://slpx-timestamp.heroku.com/{natural-language-date || unix-timestamp}`
+**GET request:** `https://slpx-timestamp.herokuapp.com/{natural-language-date || unix-timestamp}`
 
 ### Examples
 simply add a date or unix timestamp to the URL
