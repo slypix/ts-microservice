@@ -1,0 +1,20 @@
+{
+  "name": "timestamp-api",
+  "version": "1.0.0",
+  "description": "timestamp-api returns a JSON formated response of unix time & human readable date, when either format is submitted in the URL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "json",
+    "api",
+    "timestamp"
+  ],
+  "author": "Sam Di Pasquale",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
