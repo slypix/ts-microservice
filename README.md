@@ -14,7 +14,8 @@ The timestamp microservice takes a GET request with a natural language date or u
 simply add a date or unix timestamp to the URL
 
 ```bash
-# Note: %20 is the equivalent of a space, you can use spaces and the browser will replace them with %20    
+# Note: '%20' is the equivalent of a space, you can use spaces with API
+# the browser will automatically convert those spaces to '%20'    
   https://slpx-timestamp.heroku.com/july%201%202016
   https://slpx-timestamp.heroku.com/1467331200
 
