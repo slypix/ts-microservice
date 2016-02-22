@@ -37,14 +37,14 @@
   </ul>
   <h3>Usage</h3>
   <b>GET request:</b>
-  <code>https://slpx-timestamp.heroku.com/{natural-language-date || unix-timestamp}</code>
+  <code>https://slpx-timestamp.herokuapp.com/{natural-language-date || unix-timestamp}</code>
   <h3>Examples</h3>
   <p>simply add a date or unix timestamp to the URL</p>
   <pre>
 # Note: '%20' is the equivalent of a space, you can use spaces with API
 # the browser will automatically convert those spaces to '%20'    
-  https://slpx-timestamp.heroku.com/july%201%202016
-  https://slpx-timestamp.heroku.com/1467331200
+  https://slpx-timestamp.herokuapp.com/july%201%202016
+  https://slpx-timestamp.herokuapp.com/1467331200
 
 # the above will return
   {"unix":1467331200,"natural":"July 1, 2016"}
