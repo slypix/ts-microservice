@@ -50,4 +50,4 @@ app.use(function(req, res, next) {
   res.status(404).sendFile(__dirname + '/public/404.html')
 });
 
-app.listen(Number(process.argv[2]) || 3000)
+app.listen(process.env.PORT || 3000)
