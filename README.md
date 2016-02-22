@@ -1,5 +1,4 @@
 # Timestamp Microservice
----
 The timestamp microservice takes a GET request with a natural language date or unix timestamp, and returns a JSON object containing both the unix timestamp and natural language equivalent. **try it here:** [https://slpx-timestamp.herokuapp.com/](https://slpx-timestamp.herokuapp.com/)
 
 ### API
